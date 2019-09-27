@@ -63,7 +63,7 @@ def sms_reply():
 
     # Add a message
     response.message(f'Thank you for contacting the PromptConf Code of Conduct. '
-    + f'Please report your incident to our oncall team - Byron, Lorena, either by calling this' +
+    + f'Please report your incident to our oncall team - Byron, Lorena, and Mica - either by calling this' +
     f'number or emailing coc@promptconf.com. Thank you.')
 
     return Response(str(response), 200, mimetype="application/xml")
