@@ -5,7 +5,7 @@ The [PromptConf](http://promptconf.com) Code of Conduct Hotline
 Python 3.6+ as well as a Twilio number
 
 # Attributions
-This hotline reuses the setup from the PyCascades Code of Conduct hotline created by @mariatta and @cache-rules;
+This hotline reuses the setup from the [PyCascades Code of Conduct hotline](https://github.com/cache-rules/coc-hotline) created by [@mariatta](https://github.com/mariatta) and [@cache-rules](https://github.com/cache-rules);
 two amazing Pythonistas that are truly committed to building a safe and inclusive environment in all of tech. You all
 rock, thanks for making this hotline so easy to setup!
 
@@ -52,3 +52,7 @@ Python 3.6+. To deploy to AWS Lambda follow the below instructions:
   variables listed in the installation instructions above.
 7. Run `zappa deploy [your environment name here]`
 8. Take the AWS Lambda link from `zappa deploy` and configure in your Twilio voice number.
+
+# Questions?
+
+Contact me at me@lorenamesa.com! Or see the [original project]((https://github.com/cache-rules/coc-hotline).
